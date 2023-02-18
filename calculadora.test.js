@@ -1,3 +1,4 @@
+// Função para calcular desconto e frete
 const index = require('./calculadora')
 test('Aplicar desconto', () => {
     const result = index.aplicarDesconto(10,5);
