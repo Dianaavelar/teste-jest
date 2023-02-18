@@ -1,4 +1,4 @@
-// Função para calcular desconto e frete
+// Função para calcular desconto e fretee
 function aplicarDesconto(valor, desconto){
     if(desconto > valor) return 0;
     return valor - desconto;
