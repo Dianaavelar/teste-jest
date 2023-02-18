@@ -7,11 +7,10 @@ function aplicarDesconto(valor, desconto){
     if(desconto > valor) return 0;
     return valor + desconto;
  }
-
-
-  
-
- module.exports = { aplicarDesconto, somarDesconto, }
+ function freteGratis (valor) {
+    return valor >= 150;
+  }
+ module.exports = { aplicarDesconto, somarDesconto, freteGratis }
 
  
 

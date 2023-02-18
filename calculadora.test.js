@@ -8,3 +8,9 @@ test('Somar desconto', () => {
     const result = index.somarDesconto(10,8);
     expect(result).toEqual(18);
 })
+test('freteGratis é verdadeiro para 200', () => {
+  const freteGratis = index.freteGratis(150);
+  expect(freteGratis).toBeTruthy()
+})
+
+
