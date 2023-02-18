@@ -1,3 +1,4 @@
+// Função para calcular desconto e frete
 function aplicarDesconto(valor, desconto){
     if(desconto > valor) return 0;
     return valor - desconto;
@@ -7,10 +8,10 @@ function aplicarDesconto(valor, desconto){
     return valor + desconto;
  }
  function freteGratis (valor) {
-    return valor >= 150
+    return valor >= 150;
   }
  module.exports = { aplicarDesconto, somarDesconto, freteGratis }
 
-
+ 
 
  
